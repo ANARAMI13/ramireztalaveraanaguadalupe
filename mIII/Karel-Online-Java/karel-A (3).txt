@@ -1,0 +1,16 @@
+class program {
+   define sowBeepers()
+   {
+   if(anyBeepersInBeeperBag)
+   {
+      putbeeper();
+      move();
+      sowBeepers();
+   }
+  }
+    program(){
+     sowBeepers();
+     turnoff();
+     }
+     }
+     

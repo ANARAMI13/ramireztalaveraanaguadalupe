@@ -1,0 +1,24 @@
+class program {
+
+
+void SigueMuroDereha(){
+while(frontIsClear){
+move();
+}
+}
+program(){
+  void giradereha(){
+  turnleft();
+  if(frontIsBlocked){
+  turnleft();
+  move();
+  turnleft();
+  turnleft();
+  turnleft();
+  sigueMurode
+  }
+    turnoff();
+}
+}
+
+

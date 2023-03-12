@@ -1,0 +1,30 @@
+iniciar-programa
+    inicia-ejecucion
+     class program{
+
+     void turnright(){
+          turnleft();
+          turnleft();
+          turnleft();
+     }
+    program(){
+      iterate(3){
+      move();
+      turnright();
+      move();
+      pickbeeper()
+      turnleft();
+      }
+       turnright()
+       move();
+       turnright();
+       while(Frontls clear){
+           move();
+         }
+          turnoff();
+       }
+
+       }
+        apagate;
+    termina-ejecucion
+finalizar-programa

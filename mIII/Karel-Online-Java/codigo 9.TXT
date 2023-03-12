@@ -1,0 +1,35 @@
+class program {
+ void turnright()
+ {
+ iterate(3)
+ {
+ turnleft();
+ }
+ }
+ void mover(i)
+   {
+   iterate(i)
+   {
+    if(frontIsBlocked)
+     {
+       turnleft();
+       move();
+       turnright();
+       move();
+       turnright();
+       move();
+       turnleft();
+      }
+       else
+      {
+       move();
+     }
+     }
+     }
+
+
+          program(){
+           mover(5);
+           turnoff();
+     }
+ }

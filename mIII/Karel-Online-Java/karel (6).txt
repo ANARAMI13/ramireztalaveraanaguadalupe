@@ -1,0 +1,23 @@
+class program {
+void turnriht()
+{
+turnleft();
+turnleft();
+turnleft();
+}
+    program () {
+        while(notNextToABeeper)
+        {
+        if(frontIsClear)
+        {
+        putbeeper();
+        move();
+        }
+        else
+        turnriht();
+        }
+        
+        turnoff();
+    }
+}
+   
